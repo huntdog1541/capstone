@@ -210,7 +210,7 @@ if 'bdist_wheel' in sys.argv and '--plat-name' not in sys.argv:
 setup(
     provides=['capstone'],
     packages=['capstone'],
-    name='capstone',
+    name='capstone-local',
     version=VERSION,
     author='Nguyen Anh Quynh',
     author_email='aquynh@gmail.com',
